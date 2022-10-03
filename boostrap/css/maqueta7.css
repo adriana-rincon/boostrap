@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: rgb(0, 225, 255);
+    color: white;
+}
+.page-nav{
+    background-color: rgb(121, 209, 224);
+    border: 1px solid black;
+}
+.page-nav h1{
+    margin: 20px;
+}
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color:darkgrey;
+    border: 1px solid rgb(80, 235, 255);
+
+}.product-container2{
+    margin: 15px;
+}
+
+#s{
+    width: 500px;
+}
+#e{
+    width: 450px;
+}
+#b{
+    width: 350px;
+    height: 260px;
+}
+#a{
+    width: 350px;
+}
+#st{
+    width: 280px;
+    height: 260px;
+}
+.product-container{
+    margin: 15px;
+}
+.product-container:hover{
+    box-shadow: 0 8px 8px 0;
+    background-color: rgb(187, 237, 233);
+}
+.product-container img{
+    width: 350px;
+    height: 350px;
+}
+.parr1{
+    text-align: center;
+    top: 400px;
+    left: 400px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button2{
+    text-decoration:none;
+    color:#000000;
+    padding: .2em;
+    
+    }
+    .button2:hover{
+    background-color: aquamarine;
+    border-radius: .4em ;
+    height: 30px;
+    }
+
+.pop-up{
+    background-color: rgb(48, 48, 48, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up-wrap{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: 300px;
+}
+.pop-up-title{
+flex-basis: 0;
+flex-grow: 1.5;
+height: 460px;
+justify-content: center;
+align-items: center;
+}
+#pop-up1:target{
+display: none;
+}
+.control{
+    background-color: aquamarine;
+    height: 40px;
+    border-radius: .5em;
+    text-align: center;
+}
+.button1{
+    background-color: cadetblue;
+    font-size: 19px;
+    
+}
+.button1:hover{
+    background-color: bisque;
+    border-radius: .5em;
+}
+.pop-up-title p{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+}
